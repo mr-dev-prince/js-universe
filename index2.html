@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8 Nov</title>
+  </head>
+  <body>
+    <div id="wrapper"></div>
+  </body>
+  <!-- javascript starts here -->
+  <script>
+    // access parent element
+    const parent = document.getElementById("wrapper");
+
+    // create an array of fruits
+
+    const fruitArr = ["Apple", "Mango", "Grapes", "Dragon Fruit", "Avocado"];
+
+    // create an element/node/child
+    for (let i = 0; i < 5; i++) {
+      const newElem = document.createElement("h1");
+      newElem.innerText = fruitArr[i];
+      newElem.style.color = "red";
+
+      parent.appendChild(newElem);
+    }
+
+    const newBtn = document.createElement("button");
+    newBtn.innerText = "Submit";
+    newBtn.style.backgroundColor = "blue";
+    newBtn.style.padding = "10px";
+    newBtn.style.color = "white";
+
+    // adding a child in the parent
+    parent.appendChild(newBtn);
+
+    // removing a child from the parent
+    parent.removeChild(newBtn)
+
+  </script>
+</html>
