@@ -7,6 +7,7 @@ btn.innerText = "change color";
 btn.style.backgroundColor = "blue";
 btn.style.color = "white";
 btn.style.padding = "20px";
+btn.draggable = true
 
 // adding the child inside the parent
 parent.appendChild(btn);
@@ -18,7 +19,7 @@ function getRandomColor() {
 }
 
 // adding eventlistener
-btn.addEventListener("click", () => {
+btn.addEventListener("mouseenter", () => {
     const newColor = getRandomColor();
     parent.style.backgroundColor = newColor;
 });
