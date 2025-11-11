@@ -41,5 +41,4 @@ const userString = JSON.stringify(user); // "{\"name\":\"Prince\",\"age\":20}"
 
 const userJson = JSON.parse(userString);
 
-
 console.log(userJson.name)
