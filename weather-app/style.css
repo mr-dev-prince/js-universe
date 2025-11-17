@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #08679e;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+#data-wrapper {
+  border: 2px solid white;
+  height: 300px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+#location-wrapper{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#weather-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#celcius{
+    color: white;
+    font-weight: 600;
+    padding: 2px;
+}
+
+#fah{
+    color: white;
+    font-weight: 600;
+    padding: 2px;
+}
