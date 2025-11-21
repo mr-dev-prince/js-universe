@@ -1,0 +1,52 @@
+-> Abbreviations
+    -> npm i ->> npm install
+    -> npm un ->> npm uninstall
+
+-> Starting the project
+    ->> Base -> 'npm run'
+    ->> in-built -> 'npm run dev'
+    ->> to change - go to -> package.json
+
+-> Installing Packages
+    ->> Base -> npm i 
+    ->> "npm i axios" | "npm install axios"
+
+-> Uninstall Packages
+    ->> Base -> npm un
+    ->> "npm un axios"
+
+-> Dependencies
+    ->> used in production code
+
+-> Dev-Dependencies
+    ->> not necessary for production
+    ->> only for developer use
+
+-> Signature Packages
+    ->> react-router-dom -> routing 
+    ->> axios -> API request
+    ->> react-icons/lucide-react -> provide icons
+    ->> tailwindcss -> styling
+
+-> Some Conventions
+    ->> userName - user_name -> consistent naming
+    ->> consistent folder structure
+    ->> no one touches these files -> main.tsx, index.html
+
+-> Basic Flow
+    ->> main.jsx me -> index.html file se root lelo -> and usme -> app.jsx ko render kardo
+
+-> App.jsx
+    ->> Routing -> konse route pe konsa page dikhega
+
+-> export default
+    ->> koi bhi function kisi bhi naam se import kar skte hain
+
+-> export 
+    ->> same name se {} ke sath import karna padega
+
+-> Beginner Path
+    ->> Project Setup
+    ->> Routing
+    ->> Create Pages according to your routing
+    ->> Yaha se jo man me aaye wo karo
