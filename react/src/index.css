@@ -1,13 +1,7 @@
-/* TailwindCSS -> CSS - Utility Classes | background-color : "red" -> bg-red */
+@import "tailwindcss";
 
-.header{
-    width: 100vw;
-    height: 100px;
-    background: #ff0000;
-}
-
-.footer{
-    width: 100vw;
-    height: 100px;
-    background: #8ad511;
-}
+/* html {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */

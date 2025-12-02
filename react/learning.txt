@@ -50,3 +50,14 @@
     ->> Routing
     ->> Create Pages according to your routing
     ->> Yaha se jo man me aaye wo karo
+
+
+->> Setup tailwindcss
+    -> search 'vite tailwind setup'
+    -> install tailwind
+    -> add configurations in vite.config.js
+    -> import tailwind in main css file
+
+# HOOKS
+
+->> useState -> it is used to have a variable and a function that changes that variable
